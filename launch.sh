@@ -29,7 +29,7 @@ if ! [[ -f "Server-Files-$SERVER_VERSION.zip" ]]; then
         rm -fr "$DIR_TEST"
     fi
     
-    curl -Lo neoforge-${NEOFORGE_VERSION}-installer.jar https://api.mohistmc.com/project/mohist/1.20.1/builds/312/download
+    curl -Lo neoforge-${NEOFORGE_VERSION}-installer.jar https://api.mohistmc.com/project/youer/1.21.1/builds/326/download
     java -jar neoforge-${NEOFORGE_VERSION}-installer.jar --installServer
 fi
 
