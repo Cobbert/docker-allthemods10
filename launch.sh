@@ -1,7 +1,7 @@
 #!/bin/bash
 set -x
 
-NEOFORGE_VERSION=21.1.215
+NEOFORGE_VERSION=21.1.217
 SERVER_VERSION=5.4
 
 cd /data
