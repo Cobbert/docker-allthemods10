@@ -107,6 +107,6 @@ for raw_username in "${OPS[@]}"; do
 done
 
 sed -i 's/server-port.*/server-port=25565/g' server.properties
-chmod 755 startserver.sh
+chmod 755 run.sh
 
-./startserver.sh
+./run.sh
