@@ -1,7 +1,7 @@
 #!/bin/bash
 set -x
 
-NEOFORGE_VERSION=21.1.217
+NEOFORGE_VERSION=21.1.215
 SERVER_VERSION=5.4
 
 cd /data
@@ -28,7 +28,7 @@ if ! [[ -f "Server-Files-$SERVER_VERSION.zip" ]]; then
         rm -fr "$DIR_TEST"
     fi
     
-    curl -Lo neoforge-${NEOFORGE_VERSION}-installer.jar https://api.mohistmc.com/project/youer/1.21.1/builds/418/download
+    curl -Lo neoforge-${NEOFORGE_VERSION}-installer.jar https://api.mohistmc.com/project/youer/1.21.1/builds/382/download
     java -jar neoforge-${NEOFORGE_VERSION}-installer.jar --installServer
 fi
 
